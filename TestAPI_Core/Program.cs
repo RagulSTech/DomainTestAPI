@@ -80,7 +80,7 @@ Log.Logger = new LoggerConfiguration()
 //    .WriteTo.MSSqlServer(
 //        connectionString: "Server=172.19.1.7;Database=SynthCare;User Id=sa;Password=sql#nit@8205rk45;TrustServerCertificate=True;",
 //        tableName: "Try_Logtable",
-//        autoCreateSqlTable: false)
+//        autoCreateSqlTable: true)
 //    .CreateLogger();
 
 //CREATE TABLE Try_Logtable (

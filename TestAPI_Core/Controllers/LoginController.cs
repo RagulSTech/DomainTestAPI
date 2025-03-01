@@ -21,7 +21,7 @@ namespace TestAPI_Core.Controllers
             _configuration = configuration;
             _logger = logger;
         }
-        [HttpPost("login")]
+        [HttpGet("login")]
         public IActionResult Login([FromQuery] string empusername, string emppassword)
         {
             string connectionString = _configuration.GetConnectionString("Test_db");
